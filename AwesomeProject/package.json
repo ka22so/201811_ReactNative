@@ -12,6 +12,7 @@
   "dependencies": {
     "@types/react-redux": "^6.0.10",
     "axios": "^0.18.0",
+    "native-base": "^2.8.1",
     "react": "16.6.1",
     "react-native": "0.57.7",
     "react-redux": "^5.1.1",
