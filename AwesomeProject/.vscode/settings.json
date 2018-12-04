@@ -39,6 +39,7 @@
   "auto-close-tag.fullMode": true,
   "html.format.endWithNewline": true,
   "git.autofetch": true,
-  "html.format.indentHandlebars": true,
-  "html.format.indentInnerHtml": true,
+  "html.format.indentHandlebars": false,
+  "html.format.indentInnerHtml": false,
+  "html.format.wrapAttributes": "aligned-multiple"
 }
