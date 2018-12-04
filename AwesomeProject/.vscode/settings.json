@@ -1,0 +1,44 @@
+{
+  "editor.formatOnSave": true,
+  "javascript.format.enable": false,
+  // "editor.rulers": [80, 120], //一行の文字限定の設定
+  // "files.autoSave": "onFocusChange", //　自動でファイルを保存する
+  "editor.tabSize": 2, //名前通り
+  "editor.renderWhitespace": "boundary", // スペースの表示
+  "markdown.preview.breaks": true,
+  "editor.mouseWheelZoom": true,
+  "workbench.activityBar.visible": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "editor.cursorBlinking": "phase",
+  "editor.wordWrap": "on",
+  "files.trimFinalNewlines": true,
+  "editor.tabCompletion": true,
+  "editor.formatOnPaste": false,
+  "vim.startInInsertMode": true,
+  "explorer.confirmDelete": false,
+  "terminal.explorerKind": "external",
+  "terminal.external.linuxExec": "iterm",
+  "vim.useCtrlKeys": false,
+  "vim.autoSwitchInputMethod.enable": true,
+  "prettier.eslintIntegration": true,
+  "prettier.arrowParens": "always",
+  "prettier.proseWrap": "always",
+  "prettier.requireConfig": true,
+  "prettier.singleQuote": true,
+  "ruby.format": "rubocop",
+  "ruby.intellisense": "rubyLocate",
+  "ruby.codeCompletion": "rcodetools",
+  "explorer.confirmDragAndDrop": false,
+  "gitlens.advanced.messages": {
+    "suppressLineUncommittedWarning": true
+  },
+  "breadcrumbs.enabled": true,
+  "editor.lineNumbers": "on",
+  "auto-close-tag.SublimeText3Mode": true,
+  "auto-close-tag.fullMode": true,
+  "html.format.endWithNewline": true,
+  "git.autofetch": true,
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+}
