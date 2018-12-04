@@ -17,6 +17,6 @@ export class ActionDispatcher {
 }
 
 export default connect(
-  (state: ReduxState) => ({ value: state.counter }), // ①
-  (dispatch: Dispatch<ReduxAction>) => ({ actions: new ActionDispatcher(dispatch) }) // ②
+  (state: ReduxState) => ({ value: state.counter }),
+  (dispatch: Dispatch<ReduxAction>) => ({ actions: new ActionDispatcher(dispatch) })
 )(Counter);
