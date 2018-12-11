@@ -1,12 +1,9 @@
 import * as React from 'react';
-import { CounterState } from './Counter.module';
 import { Platform, StyleSheet, View } from 'react-native';
 import { Container, Header, Title, Content, Footer, FooterTab, Button, Left, Right, Body, Icon, Text } from 'native-base';
-import { ActionDispatcher } from '../../containers/Container';
 
 interface Props {
-  value: CounterState;
-  actions: ActionDispatcher;
+
 }
 
 const styles = StyleSheet.create({
@@ -32,7 +29,7 @@ const buttnStyle = [{
   marginTop: 10
 }];
 
-export class Counter extends React.Component<Props, {}> {
+export class Splash extends React.Component<Props, {}> {
 
   render() {
     console.log(this);
@@ -50,15 +47,7 @@ export class Counter extends React.Component<Props, {}> {
           <Right />
         </Header>
         <Content>
-          <View style={styles.content}>
-            <Text>This is Content Section</Text>
-            <Button block success onPress={() => this.props.actions.increment(3)} style={buttnStyle}>
-              <Text>Increment 3</Text>
-            </Button>
-            <Button block warning onPress={() => this.props.actions.decrement(2)} style={buttnStyle}>
-              <Text>Decrement 2</Text>
-            </Button>
-          </View>
+          <Text>Splash</Text>
         </Content>
         <Footer>
           <FooterTab>

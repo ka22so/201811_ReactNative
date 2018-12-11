@@ -23,7 +23,7 @@ export interface CounterState {
 
 export type CounterActions = IncrementAction | DecrementAction;
 
-const initialState: CounterState = { num: 0 };
+export const initialState: CounterState = { num: 0 };
 
 export default function reducer(state: CounterState = initialState, action: CounterActions): CounterState {
   switch (action.type) {

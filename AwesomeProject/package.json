@@ -10,11 +10,15 @@
     "ios": "react-native run-ios"
   },
   "dependencies": {
+    "@types/react-navigation": "^2.13.7",
     "@types/react-redux": "^6.0.10",
     "axios": "^0.18.0",
     "native-base": "^2.8.1",
     "react": "16.6.1",
     "react-native": "0.57.7",
+    "react-native-gesture-handler": "^1.0.10",
+    "react-navigation": "^3.0.5",
+    "react-navigation-redux-helpers": "^2.0.8",
     "react-redux": "^5.1.1",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0"
